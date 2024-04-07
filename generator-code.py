@@ -28,7 +28,7 @@ def write_to_csv(data,filename):
 
 def main():
     num_records = 10
-    num_days = 30
+    num_days = 40
     output_folder = "transaction_data"
 
     if not os.path.exists(output_folder):
